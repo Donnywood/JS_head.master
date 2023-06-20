@@ -1,0 +1,1 @@
+document.getElementById('speech').textContent = 'Прывіт, я агурок!';
