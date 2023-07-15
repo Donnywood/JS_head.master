@@ -28,12 +28,18 @@ const text = document.createTextNode('TUT BYL JA');
 
 div.classList.add('black');
 
-// wrapper.append(div);
+wrapper.append(div);
+// wrapper.appendChild(div);
 
-// wrapper.prepend(div);
+// // wrapper.prepend(div);
 
-// hearts[0].before(div);
+// // hearts[0].before(div);
 
-// circles[0].remove();
+// // circles[0].remove();
 
-hearts[0].replaceWith(circles[0]);
+// hearts[0].replaceWith(circles[0]);
+
+div.innerHTML = "<h1>Hello World</h1>";
+
+div.insertAdjacentHTML("beforebegin",'<h2>Hello</h2>');
+
